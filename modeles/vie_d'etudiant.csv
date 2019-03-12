@@ -1,13 +1,8 @@
 dimensions : physiques / acteurs / concepts / rapports;niveau;nombre;Type de source;Nb de source;Type de destination;Nb de destination;Type de prédicat;Nb de prédicat;complexité
-Physique;1;3;;;;;;;3
-;1;3;;;;;;;3
+Physique;1;4;;;;;;;4
+;1;2;;;;;;;2
 Acteur;1;1;;;;;;;1
-;2;2;;;;;;;4
-;2;3;;;;;;;5
-Concept;1;6;;;;;;;6
-;2;18;;;;;;;36
-;2;24;;;;;;;42
-Rapport;;1;physique;1;physique;1;acteur;1;4
-;;2;acteur;2;concept;14;acteur;2;20
-;1;3;;;;;;;24
-Total;6;33;;;;;;;74
+Concept;1;4;;;;;;;4
+Rapport;;1;acteur;1;physique;1;physique;1;4
+;;2;acteur;1;concept;2;concept;2;7
+;;1;acteur;1;concept;1;concept;1;3
